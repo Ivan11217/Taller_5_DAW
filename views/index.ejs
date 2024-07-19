@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/datatables/datatables.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <header>
+    <%- include("partials/header") -%>
+  </header>
+  <%- include("partials/menu") -%>
+  <div class="container">
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  </div>
+  <footer>
+    <%- include("partials/footer") -%>
+  </footer>
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/datatables/datatables.min.js"></script>
+</body>
+</html>
